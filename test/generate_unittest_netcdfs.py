@@ -754,6 +754,7 @@ if __name__ == "__main__":
     output_1d_normal_var_to_netcdf   ('sensorZenithAngle', 'MetaData', 'testinput/019_VarField_satzenith.nc4')
     output_1d_normal_int_var_to_netcdf('surfaceQualifier', 'MetaData', 'testinput/021_VarField_surface.nc4')
     output_1d_geoval_to_netcdf       ('land_type_index',            'testinput/023_VarField_modelsurface_geoval.nc4')
+    output_1d_geoval_to_netcdf       ('height_above_mean_sea_level_at_surface', 'testinput/024_VarField_modelorog_geoval.nc4')
     output_1d_normal_int_var_to_netcdf('satelliteIdentifier', 'MetaData',     'testinput/028_VarField_satid.nc4')
     output_1d_normal_var_to_netcdf   ('solarZenithAngle', 'MetaData', 'testinput/031_VarField_solzenith.nc4')
     output_1d_normal_var_to_netcdf   ('emissivityIR', 'Emiss', 'testinput/034_VarField_iremiss.nc4')
