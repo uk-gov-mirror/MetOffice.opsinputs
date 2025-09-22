@@ -182,6 +182,10 @@ ADD_WRITER_TEST(NAME     varobswriter_023_VarField_modelsurface_geoval
                 YAML     023_VarField_modelsurface_geoval.yaml
                 NAMELIST VarObsWriterNamelists_023_VarField_modelsurface/Surface.nl
                 DATA     023_VarField_modelsurface_geoval.nc4)
+ADD_WRITER_TEST(NAME     varobswriter_024_VarField_modelorog_geoval
+                YAML     024_VarField_modelorog_geoval.yaml
+                NAMELIST VarObsWriterNamelists_024_VarField_modelorog/Surface.nl
+                DATA     024_VarField_modelorog_geoval.nc4)
 ADD_WRITER_TEST(NAME     varobswriter_028_VarField_satid
                 YAML     028_VarField_satid.yaml
                 NAMELIST VarObsWriterNamelists_028_VarField_satid/AMSUB.nl
