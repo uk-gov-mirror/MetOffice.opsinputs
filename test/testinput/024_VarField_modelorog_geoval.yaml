@@ -11,7 +11,7 @@ observations:
           obsfile: Data/dummy.hc4
       simulated variables: [dummy]
     geovals:
-      filename: Data/024_VarField_modelorog_geoval.nc4
+      filename: Data/001_SurfaceCxField_Orog.nc4
     obs filters:
     # Set the flag of observations with missing values to "pass": we want to check if these
     # values are encoded correctly in the VarObsFile.
