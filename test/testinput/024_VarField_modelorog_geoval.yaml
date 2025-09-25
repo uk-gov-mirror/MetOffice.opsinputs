@@ -4,14 +4,14 @@ time window:
 
 observations:
   - obs space:
-      name: Surface
+      name: AMSUB
       obsdatain:
         engine:
           type: H5File
           obsfile: Data/002_VarField_temperature_Surface.nc4
       simulated variables: [airTemperatureAt2M]
     geovals:
-      filename: Data/023_VarField_modelsurface_geoval.nc4
+      filename: Data/024_VarField_modelorog_geoval.nc4
     obs filters:
     # Double all observation errors: we want to check if error changes made by filters are
     # propagated to VarObs files
@@ -36,7 +36,7 @@ observations:
     - filter: VarObs Checker
       expected_main_table_columns:
         # Only observations 1, 2 and 4 are passed; observation 3 is rejected by the domain check
-        field:    ["23", "23", "23"]
+        field:    ["24", "24", "24"]
         ob value: ["7.10000", "-1073741824.00000", "7.40000"]
         ob error: ["-1073741824.00000", "-1073741824.00000", "-1073741824.00000"]
         lat:      ["21.00000", "22.00000", "24.00000"]
