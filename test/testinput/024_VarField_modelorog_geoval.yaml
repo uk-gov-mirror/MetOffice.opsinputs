@@ -4,7 +4,7 @@ time window:
 
 observations:
   - obs space:
-      name: AMSUB
+      name: Surface
       obsdatain:
         engine:
           type: H5File
